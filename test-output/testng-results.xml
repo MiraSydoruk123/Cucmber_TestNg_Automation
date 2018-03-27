@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">I pass info (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (PASSED : 3s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3493" started-at="2018-03-24T20:58:00Z" finished-at="2018-03-24T20:58:03Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@53b32d7]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="3493" started-at="2018-03-24T20:58:00Z" finished-at="2018-03-24T20:58:03Z">
+      <class name="com.app.runners.CukesRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runners.CukesRunner@53b32d7]" name="setUpClass" is-config="true" duration-ms="157" started-at="2018-03-24T15:58:00Z" finished-at="2018-03-24T15:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@53b32d7]" name="runScenario" duration-ms="3274" started-at="2018-03-24T15:58:00Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-03-24T15:58:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DDT within step testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I pass info (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (PASSED : 3s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runners.CukesRunner@53b32d7]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2018-03-24T15:58:03Z" finished-at="2018-03-24T15:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.app.runners.CukesRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
