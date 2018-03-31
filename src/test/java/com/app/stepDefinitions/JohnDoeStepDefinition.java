@@ -1,7 +1,8 @@
 package com.app.stepDefinitions;
 
-import org.junit.Assert;
+
 import org.openqa.selenium.Keys;
+import org.testng.Assert;
 
 import com.app.pages.SuiteCRMContactPage;
 import com.app.pages.SuiteCRMDashboardPage;

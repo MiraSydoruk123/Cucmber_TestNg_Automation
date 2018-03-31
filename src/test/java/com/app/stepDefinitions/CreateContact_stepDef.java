@@ -20,6 +20,7 @@ public class CreateContact_stepDef {
 		Actions action = new Actions(Browser.getDriver());
 		action.moveToElement(dsh.createMenu).perform();
 		dsh.createContactButton.click();
+		
 
 	}
 
