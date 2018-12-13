@@ -14,6 +14,7 @@ import cucumber.api.java.en.Given;
 
 public class CreateContactExcel_setpDef {
 	SuiteCRMDashboardPage dsh = new SuiteCRMDashboardPage();
+	String dastan = "hi";
 	@Given("^I validate contacts with data in excel sheet \"([^\"]*)\" and \"([^\"]*)\"$")
 	public void i_validate_contacts_with_data_in_excel_sheet_and(String path, String sheet) {
 	   ExcelUtils.openExcelFile(path, sheet);
