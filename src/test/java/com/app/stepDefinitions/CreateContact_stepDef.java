@@ -1,5 +1,8 @@
 package com.app.stepDefinitions;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
@@ -14,6 +17,7 @@ import cucumber.api.java.en.Then;
 public class CreateContact_stepDef {
 	SuiteCRMDashboardPage dsh = new SuiteCRMDashboardPage();
 	SuiteCRMCreateContactPage cp = new SuiteCRMCreateContactPage();
+	List<String> ls = new ArrayList<>();
 
 	@Given("^I go to create contact page$")
 	public void i_go_to_create_contact_page() {
